@@ -10,7 +10,6 @@ import Sr from '../components/Sr.vue'
 import R from '../components/R.vue'
 import N from '../components/N.vue'
 import Add from '../components/Add.vue'
-import Demo from '../components/Demo.vue'
 import Role from '../components/Role.vue'
 
 
@@ -44,11 +43,10 @@ const routes = [
       {path:'n', name:'N', component:N},
       {path:'add', name:'Add', component:Add},
       {path:'role', name:'Role', component:Role, props:true},
-      {path:'demo', name:'Demo', component:Demo},
     ]
   }
 
-]
+];
 
 const router = createRouter({
   history: createWebHashHistory(),
